@@ -1,0 +1,43 @@
+# This file represents the Appfile for the android distribution.
+#===========================================================================================#
+# Change the syntax highlighting to Ruby and tab size to 2.
+#===========================================================================================#
+#
+# Fill out the following environment variables with your specific values.
+#-------------------------------------------------------------------------------------------#
+#
+  ENV['PACKAGE_NAME'] = ''          # e.g. com.company.app_project
+#
+#-------------------------------------------------------------------------------------------#
+#
+# Fabric's test platform 'Beta': (ONLY BETA)
+# =============================
+# Declares how and which persons shall be notified.
+# Multiple values must be comma separated. If it's not used, leave it empty.
+#
+  ENV['BETA_EMAILS'] = ''           # e.g. 'tester@company.com, apps@novomind.com' 
+  ENV['BETA_GROUPS'] = ''           # e.g. 'group1, group2'
+#
+#-------------------------------------------------------------------------------------------#
+# 
+# Gradle: (ONLY BETA)
+# =============================
+# Multiple values must be comma separated. Dimensions are supported.
+#
+  ENV['BETA_PRODUCT_FLAVORS'] = ''  # e.g. 'freeVersion, fullVersion'
+#
+#-------------------------------------------------------------------------------------------#
+#
+# Gradle: (ONLY RELEASE)
+# =============================
+# Declare the flavors in combination with the matching json_key_file.
+# Follow https://github.com/fastlane/fastlane/tree/master/supply#setup to get a json signing file.
+# The files must be stores inside the '.app_root/certifications' folder. 
+# Syntax: 'flavor:json,...'         Multiple pairs must be comma separated.  
+#
+  ENV['RELEASE_PRODUCT_FLAVORS_WITH_JSON'] = ''
+# e.g. =
+# 'freeVersion:playStore.json,
+#  fullVersion:playStore2.json'
+#
+#===========================================================================================#

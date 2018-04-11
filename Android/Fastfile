@@ -1,0 +1,9 @@
+# This file represents the Fastfile implementation for the android distribution.
+#===========================================================================================#
+# DO NOT DELETE OR EDIT THIS FILE
+#===========================================================================================#
+# Removed
+#===========================================================================================#
+#
+# Includes the Fastfile file, which will use the declared environment variables.
+import ENV['FASTLANE_HOME'] + '/Android/implementation/fastfile_android.rb'
