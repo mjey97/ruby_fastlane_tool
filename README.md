@@ -1,5 +1,5 @@
 # ruby_fastlane_tool
-personal project - serves for showing code
+personal project - serves for showing code only
 
 
 Using of fastlane - the tool for automatic app distributions
